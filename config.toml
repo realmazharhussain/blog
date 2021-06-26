@@ -1,0 +1,4 @@
+baseURL = "https://mazhartechtips.com"
+languageCode = "en-us"
+title = "Mazhar Tech Tips"
+theme = "ananke"
