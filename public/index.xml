@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Mazhar Tech Tips</title>
-    <link>https://mazhartechtips.com/</link>
+    <link>https://mazhartechtips.netlify.app/</link>
     <description>Recent content on Mazhar Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>©2021, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 26 Jun 2021 17:43:54 +0500</lastBuildDate>
     
-        <atom:link href="https://mazhartechtips.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://mazhartechtips.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
       
       
@@ -45,11 +45,11 @@
       
       <item>
         <title>Test Post</title>
-        <link>https://mazhartechtips.com/posts/my-first-post/</link>
+        <link>https://mazhartechtips.netlify.app/posts/my-first-post/</link>
         <pubDate>Sat, 26 Jun 2021 17:43:54 +0500</pubDate>
         <author>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</author>
         <atom:modified>Sat, 26 Jun 2021 17:43:54 +0500</atom:modified>
-        <guid>https://mazhartechtips.com/posts/my-first-post/</guid>
+        <guid>https://mazhartechtips.netlify.app/posts/my-first-post/</guid>
         <description>Example Heading Example text
 Example SubHeading Example text
 1  echo &amp;#39;some bash code&amp;#39;   </description>

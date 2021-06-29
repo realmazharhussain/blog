@@ -1,4 +1,4 @@
-baseURL = "https://mazhartechtips.com/"
+baseURL = "https://mazhartechtips.netlify.app/"
 title = "Mazhar Tech Tips"
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 disableKinds = ["sitemap"]

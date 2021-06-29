@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Series on Mazhar Tech Tips</title>
-    <link>https://mazhartechtips.com/series/</link>
+    <link>https://mazhartechtips.netlify.app/series/</link>
     <description>Recent content in Series on Mazhar Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
     
-        <atom:link href="https://mazhartechtips.com/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://mazhartechtips.netlify.app/series/index.xml" rel="self" type="application/rss+xml" />
     
 
       
