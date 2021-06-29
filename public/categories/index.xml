@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Mazhar Tech Tips</title>
     <link>https://mazhartechtips.com/categories/</link>
     <description>Recent content in Categories on Mazhar Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mazhartechtips.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</managingEditor>
+    <webMaster>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    
+        <atom:link href="https://mazhartechtips.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+
+    
   </channel>
 </rss>

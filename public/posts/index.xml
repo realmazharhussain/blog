@@ -1,20 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Posts on Mazhar Tech Tips</title>
     <link>https://mazhartechtips.com/posts/</link>
     <description>Recent content in Posts on Mazhar Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jun 2021 17:43:54 +0500</lastBuildDate><atom:link href="https://mazhartechtips.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://mazhartechtips.com/posts/my-first-post/</link>
-      <pubDate>Sat, 26 Jun 2021 17:43:54 +0500</pubDate>
+    <language>en</language>
+    <managingEditor>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</managingEditor>
+    <webMaster>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 26 Jun 2021 17:43:54 +0500</lastBuildDate>
+    
+        <atom:link href="https://mazhartechtips.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+
       
-      <guid>https://mazhartechtips.com/posts/my-first-post/</guid>
-      <description>Example Post Some text</description>
-    </item>
+      <item>
+        <title>Test Post</title>
+        <link>https://mazhartechtips.com/posts/my-first-post/</link>
+        <pubDate>Sat, 26 Jun 2021 17:43:54 +0500</pubDate>
+        <author>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</author>
+        <atom:modified>Sat, 26 Jun 2021 17:43:54 +0500</atom:modified>
+        <guid>https://mazhartechtips.com/posts/my-first-post/</guid>
+        <description>Example Heading Example text
+Example SubHeading Example text
+1  echo &amp;#39;some bash code&amp;#39;   </description>
+        
+        <dc:creator>Mazhar Hussain</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>
