@@ -14,7 +14,7 @@
     <managingEditor>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</managingEditor>
     <webMaster>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 17:43:54 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jul 2021 14:19:15 +0500</lastBuildDate>
     
         <atom:link href="https://mazhartechtips.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
@@ -44,15 +44,17 @@
 
       
       <item>
-        <title>Test Post</title>
-        <link>https://mazhartechtips.netlify.app/posts/my-first-post/</link>
-        <pubDate>Sat, 26 Jun 2021 17:43:54 +0500</pubDate>
+        <title>Best/Useful Android Apps</title>
+        <link>https://mazhartechtips.netlify.app/posts/best-android-apps/</link>
+        <pubDate>Sat, 31 Jul 2021 14:19:15 +0500</pubDate>
         <author>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</author>
-        <atom:modified>Sat, 26 Jun 2021 17:43:54 +0500</atom:modified>
-        <guid>https://mazhartechtips.netlify.app/posts/my-first-post/</guid>
-        <description>Example Heading Example text
-Example SubHeading Example text
-1  echo &amp;#39;some bash code&amp;#39;   </description>
+        <atom:modified>Sat, 31 Jul 2021 14:19:15 +0500</atom:modified>
+        <guid>https://mazhartechtips.netlify.app/posts/best-android-apps/</guid>
+        <description>1. Eyecon  This app lets you know who is calling you even if you don&amp;rsquo;t have their number saved. Sometimes, it can even show their picture.
+But a very important feature of this app is that sometimes, it can detect if the caller is a spammer.
+It can also show quotes from different famous people after every call.
+Click here to Install
+2. Equilizer FX  Equalizer FX</description>
         
         <dc:creator>Mazhar Hussain</dc:creator>
         
