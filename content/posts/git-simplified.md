@@ -187,3 +187,6 @@ First, open a local git repository folder in Terminal or Powershell. Then you ca
 |          `git push`           |                Upload saved changes to GitHub                |
 |          `git pull`           |        Download changes that were uploaded by others         |
 
+## More Information/Documentation on Git
+
+For more information/documentation on git, visit official [git documentation site](https://git-scm.com/doc).
