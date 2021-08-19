@@ -14,7 +14,7 @@
     <managingEditor>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</managingEditor>
     <webMaster>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 31 Jul 2021 14:19:15 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 15 Aug 2021 23:44:05 +0500</lastBuildDate>
     
         <atom:link href="https://mazhartechtips.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,26 @@
         
       
 
+      
+      <item>
+        <title>Git simplified | A Git tutorial for beginners</title>
+        <link>https://mazhartechtips.netlify.app/posts/git-simplified/</link>
+        <pubDate>Sun, 15 Aug 2021 23:44:05 +0500</pubDate>
+        <author>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</author>
+        <atom:modified>Sun, 15 Aug 2021 23:44:05 +0500</atom:modified>
+        <guid>https://mazhartechtips.netlify.app/posts/git-simplified/</guid>
+        <description>What is Git? Git is a version control system. It means it can save multiple versions of files in a project. The project is simply just a folder to be used with git. That folder can contain anything e.g. source code of a program, images, Photoshop project file, videos, etc.
+It is a program that saves everything locally on your computer i.e. it works offline
+What is a Git Repository? A folder whose files and sub-folders are being saved/managed by Git is called a git repository or a git repo.</description>
+        
+        <dc:creator>Mazhar Hussain</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Best/Useful Android Apps</title>
