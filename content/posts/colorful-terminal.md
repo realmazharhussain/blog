@@ -2,6 +2,7 @@
 title: "Make Your Terminal Colorful, Exciting and Fun"
 date: 2021-08-29T10:39:18+05:00
 draft: true
+typora-root-url: ..
 ---
 
 In this tutorial, we will learn how to colorize Linux Terminal in order to make it exciting and fun. In addition, we will also set-up command auto-suggestion, command completion, syntax-highlighting, and other useful stuff. Although this tutorial is primarily for Linux users, users of Termux, Windows Subsystem for Linux, Cygwin, MacOS, or other Unix-like Operating Systems can also follow this guide but some steps may be a little different for those users.
