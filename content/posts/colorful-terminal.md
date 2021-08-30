@@ -1,7 +1,7 @@
 ---
 title: "Make Your Terminal Colorful, Exciting and Fun"
 date: 2021-08-29T10:39:18+05:00
-draft: true
+draft: false
 typora-root-url: ..
 ---
 
@@ -125,7 +125,7 @@ Each time you open Terminal, fish presents a welcome note. To disable that, run 
 You may have noticed that the prompt shown in above picture is not available in fish settings. That's because it is a custom prompt that I made. It is inspired by Bash Prompt found in Debian/Ubuntu systems but has much more features than its Bash counterpart. To get that prompt, First make sure `wget` is installed on your system, then run the following commands in terminal.
 
 ```bash
-wget https://raw.githubusercontent.com/realmazharhussain/easier-linux/blob/main/fish/prompts/mazharhussain.fish
+wget https://github.com/realmazharhussain/easier-linux/raw/main/fish/prompts/mazharhussain.fish
 sudo mkdir -p /usr/share/fish/tools/web_config/sample_prompts/
 sudo mv mazharhussain.fish /usr/share/fish/tools/web_config/sample_prompts/
 ```
