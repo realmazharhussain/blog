@@ -1,5 +1,5 @@
 ---
-title: "Rename Multiple Files Using Bash"
+title: "Rename/Move Multiple Files Using Bash"
 date: 2021-10-02T16:32:25+05:00
 draft: true
 ---
@@ -9,7 +9,7 @@ Following is an explained step by step process to rename multiple files (mostly)
 
 ## Why not use Graphical tools for this?
 
-
+Graphical tools are great. Use them if they do what you want. But they are limited by their graphical interfaces. There are things that they cannot do. That's where bash comes in for help. Using bash, you can easily rename/move files exactly the way you want.
 
 ## Selecting Files
 
@@ -117,7 +117,9 @@ basename="${basename%.*}"        # remove extension from basename (wallpaper)
 extension="${file##*.}"          # get extension (png)
 ```
 
-## Renaming Files
+## Renaming/Moving Files
+
+### Renaming Files
 
 Now since we have a file’s directory path, its basename and extension, we can easily rename it with `mv --` command
 
@@ -144,6 +146,20 @@ old_name="$file"
 new_name="${directory}/${basename/paper/}.${extension}"
 mv -- "$old_name" "$new_name"
 ```
+
+### Moving Files
+
+The `mv --` command also can move files.
+
+For example, to move `wallpaper.png` from `/home/user` to `/home/user/Pictures`, following code can be used
+
+```bash
+old_name="$file"
+new_name="/home/user/Pictures/${basename}.${extension}"
+mv -- "$old_name" "$new_name" 
+```
+
+
 
 ## Complete Examples
 
@@ -192,6 +208,7 @@ done
 ```bash
 # Set a starting value for the number in filenames
 number=1
+
 # Select all Pictures in ~/test-folder
 for file in ~/test-folder/*; do
   if [[ $( file -b --mime-type -- "$file") = image/* ]]; then
@@ -218,6 +235,7 @@ done
 ```bash
 # Set a starting value for the number in filenames
 number=1
+
 # Select all Pictures in ~/test-folder
 for file in ~/test-folder/*; do
   if [[ $( file -b --mime-type -- "$file") = image/* ]]; then
@@ -243,6 +261,48 @@ done
 ```
 
 *Note the use use of `printf` command. You can modify it to your liking. You just have to replace 2 in `%02d` with any number you like and the result would be that many digits long.*
+
+**5:** You have over 1000 files in `~/Recovered` and all the files have useless names and no extension e.g `aldidladb49sz9e`, `ldi39-ssi3`, etc. You want files to move to their respective folders and have names like `video-001.mp4`, `video-002.mkv` for videos and names like `image-001.png`, `image-002.jpg` for images, etc. The following code is how you do it in bash
+
+```bash
+# declare number as named/associative array
+# this will be useful for keeping different number for different types of files
+declare -A number
+
+# Select all Pictures in ~/test-folder
+for file in ~/Recovered/*; do
+  # Get File type
+  mime_type=$( file -b --mime-type -- "$file") # get full type e.g. image/png, video/x-matroska, etc.
+  main_type=${mime_type%/*} # get main type e.g. video, image, text, etc.
+  sub_type=${mime_type#*/}  # get sub type e.g. mp4, png, etc.
+  sub_type=${sub_type#x-}   # remove 'x-' from subtype i.e. x-matroska -> matroska
+  [ $sub_type = matroska ] && sub_type=mkv # if subtype=matroska then change it to sub_type=mkv
+
+  # Increase value of number by 1 for current type
+  ((number[$main_type]++))
+  
+  # Break down filenames
+  file="$(realpath -s -- "$file")"
+  directory="${file%/*}"
+  basename="${file##*/}"
+  basename="${basename%.*}"
+  extension="${file##*.}"
+
+  # Format current file-type's number 
+  formatted_number=$(printf %03d ${number[$main_type]})
+  
+  # The new folder/directory where file should be moved to
+  new_directory="${directory}/${main_type}"
+
+  # Create a folder for current filetype if does not exist already
+  mkdir -p "$new_directory"
+    
+  # Rename/Move files
+  old_name="$file"
+  new_name="${new_directory}/${main_type}-${formatted_number}.${sub_type}"
+  mv -- "$old_name" "$new_name"
+done
+```
 
 <center><h3>I hope this helped you! Good Luck.</h3></center>
 
