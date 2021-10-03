@@ -14,11 +14,31 @@
     <managingEditor>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</managingEditor>
     <webMaster>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</webMaster>
     <copyright>©2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 29 Aug 2021 10:39:18 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 03 Oct 2021 11:40:25 +0500</lastBuildDate>
     
         <atom:link href="https://mazhartechtips.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Rename/Move Multiple Files Using Bash</title>
+        <link>https://mazhartechtips.netlify.app/posts/rename-move-multiple-files-using-bash/</link>
+        <pubDate>Sun, 03 Oct 2021 11:40:25 +0500</pubDate>
+        <author>mmazharhussainkgb1145@gmail.com (Mazhar Hussain)</author>
+        <atom:modified>Sun, 03 Oct 2021 11:40:25 +0500</atom:modified>
+        <guid>https://mazhartechtips.netlify.app/posts/rename-move-multiple-files-using-bash/</guid>
+        <description>Following is an explained step by step process to rename multiple files (mostly) any way you want using bash with examples
+Note: Anything after a hash/pound symbol (#) in a line in the examples is a comment and can be ignored without any effect on the process. It is there just to explain things.
+Why not use Graphical tools for this? Graphical tools are great. Use them if they do what you want.</description>
+        
+        <dc:creator>Mazhar Hussain</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Make Your Terminal Colorful, Exciting and Fun</title>
