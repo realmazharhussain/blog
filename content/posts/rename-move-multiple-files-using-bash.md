@@ -1,7 +1,7 @@
 ---
 title: "Rename/Move Multiple Files Using Bash"
-date: 2021-10-02T16:32:25+05:00
-draft: true
+date: 2021-10-03T11:40:25+05:00
+draft: false
 ---
 
 Following is an explained step by step process to rename multiple files (mostly) any way you want using bash with examples
