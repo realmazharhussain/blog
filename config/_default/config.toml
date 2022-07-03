@@ -1,6 +1,6 @@
 baseURL = "https://mazhartechtips.netlify.app/"
 title = "Mazhar Tech Tips"
-theme = "geekblog" # Name of Zzo theme folder in `themes/`.
+theme = "zzo"
 disableKinds = ["sitemap"]
 
 defaultContentLanguage = "en" # Default language to use (if you setup multilingual)
