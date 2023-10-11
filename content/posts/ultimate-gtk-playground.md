@@ -10,7 +10,7 @@ Have you ever been in a situation where you wanted to read/inspect some value th
 ## Steps
 
 1. Make sure the file/module that contains `Application.run()` call can be imported in live interpreter mode (running the interpreter directly)
-1. Replace the `Application.run()` call with `Gio.Task.run_in_thread()` call passing a wrapper around `Application.run` as `task_func` (1st argument (after self) of `Gio.Task.run_in_thread()`).
+1. Replace the `Application.run()` call with `Gio.Task.run_in_thread()` call passing a wrapper around `Application.run` as `task_func` (argument of `Gio.Task.run_in_thread()`).
 1. Now, the app will start running but you'll still be able to input more code into the interpreter prompt and read/modify any part of your app while it is running.
 
 
