@@ -28,6 +28,7 @@ The app will start running but you'll still be able to input more code into the 
 
    from gi.repository import Gtk, Gio
    
+   task = Gio.Task()
    app = Gtk.Application()
    win = Gtk.ApplicationWindow()
    
@@ -39,8 +40,6 @@ The app will start running but you'll still be able to input more code into the 
        app.run()
    
    app.connect('activate', on_activate)
-   
-   task = Gio.Task()
    task.run_in_thread(run_app)
    ```
 
