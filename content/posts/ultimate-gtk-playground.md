@@ -7,6 +7,10 @@ typora-root-url: ..
 
 Have you ever been in a situation where you wanted to read/inspect some value that GTK Inspector does not show or modify something in your running app e.g. replace a widget with another one? Well! I have just the trick for you (if your app is written in an interpreted language that is). 
 
+## The Trick
+
+The trick is to start/run the app in a background thread of the interpreter while the main thread is showing a prompt for you to type and run more code in.
+
 ## Steps
 
 1. Make sure the file/module that contains `Application.run()` call can be imported in live interpreter mode (running the interpreter directly)
