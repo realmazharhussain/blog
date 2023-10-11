@@ -11,7 +11,7 @@ Have you ever been in a situation where you wanted to read/inspect some value th
 
 1. Make sure the file/module that contains `Application.run()` call can be imported in live interpreter mode (running the interpreter directly)
 1. Replace the `Application.run()` call with `Gio.Task.run_in_thread()` call passing a wrapper around `Application.run` as `task_func` argument.
-1. Run the interpreter directly.
+1. Run the interpreter.
 1. Import the file/module that contains `Gio.Task.run_in_thread()` call.
 1. If the `Gio.Task.run_in_thread()` call is inside another function, call that function. Otherwise, do nothing.
 
