@@ -27,11 +27,14 @@ Have you ever been in a situation where you wanted to read/inspect some value th
    def on_activate(app):
        app.add_window(win)
        win.present()
+
+   def run_app(*args):
+       app.run()
    
    app.connect('activate', on_activate)
    
    task = Gio.Task()
-   task.run_in_thread(lambda *x: app.run())
+   task.run_in_thread(run_app)
    ```
 
 1. Open the Python interpreter in the same directory where you saved `bg_app.py`.
