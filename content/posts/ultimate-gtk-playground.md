@@ -23,9 +23,12 @@ The app will start running but you'll still be able to input more code into the 
 1. Save the following code as `bg_app.py`.
 
    ```python
-   from gi.repository import Adw, Gtk, Gio
+   import gi
+   gi.requre_version("Gtk", "4.0")
+
+   from gi.repository import Gtk, Gio
    
-   app = Adw.Application()
+   app = Gtk.Application()
    win = Gtk.ApplicationWindow()
    
    def on_activate(app):
