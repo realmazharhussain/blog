@@ -34,12 +34,18 @@ Have you ever been in a situation where you wanted to read/inspect some value th
    task.run_in_thread(lambda *x: app.run())
    ```
 
-1. Open a new Terminal window in the same folder where you saved `bg_app.py`.
+1. Open the Python interpreter in the same directory where you saved `bg_app.py`.
 
-1. Open the Python interpreter.
+1. Enter the following line.
 
-1. Type in `from bg_app import app, win, Gtk`
+   ```python
+   from bg_app import app, win, Gtk
+   ```
    
    This will launch the app without blocking the interpreter.
 
-1. Type in `win.props.child = Gtk.Label.new("Wow, Magic!")` and see the magic.
+1. Enter the following line and see the magic.
+
+   ```python
+   win.props.child = Gtk.Label.new("Wow, Magic!")
+   ```
