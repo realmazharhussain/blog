@@ -1,6 +1,6 @@
 ---
 title: "Ultimate Inspector/Playground for GTK"
-date: 2023-10-11T08:13:00+05:00
+date: 2023-10-11T20:13:00+05:00
 draft: false
 typora-root-url: ..
 ---
