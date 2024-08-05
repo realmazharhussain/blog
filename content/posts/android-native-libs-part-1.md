@@ -160,3 +160,6 @@ class Concat {
 - It will give you an option to choose a C file to add the "corresponding JNI function" to, choose `concat-jni.c`.
 
 Now, you'll have a skeleton of a binding function. How to fill in that function with useful code will be discussed in Part 2 of the article.
+
+## Further Reading
+- [Native (C/C++) Code in Android Apps - Part 2](https://mazhartechtips.netlify.app/posts/android-native-libs-part-2/)
