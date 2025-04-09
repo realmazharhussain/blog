@@ -1,3 +1,59 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://mazhartechtips.netlify.app
+theme: PaperMod
+title: Mazhar Hussain's Blog
+copyright: © [Mazhar Hussain](https://github.com/realmazharhussain)
+
+params:
+  disableThemeToggle: true
+  showBreadCrumbs: true
+  showReadingTime: true
+  showShareButton: true
+  showPostNavLinks: true
+  showCodeCopyButtons: true
+  showToc: true
+
+  homeInfoParams:
+    title: Welcome!
+    content: On rare occasions, I post some blogs here.
+
+  socialIcons:
+    - name: GitHub
+      title: My GithHub Profile
+      url: https://github.com/realmazharhussain
+
+    - name: Mastodon
+      title: My Mastodon
+      url: https://techhub.social/@MazharHussain
+
+    - name: BuyMeACoffee
+      title: Buy Me a Coffee
+      url: https://buymeacoffee.com/mazharhussain
+
+    - name: LinkedIn
+      title: My LinkedIn Profile
+      url: https://www.linkedin.com/in/mazharhussainkhan
+
+    - name: Matrix
+      title: My Matrix Chat
+      url: https://matrix.to/#/@realmazharhussain:matrix.org
+
+    - name: YouTube
+      title: My YouTube Channel
+      url: https://www.youtube.com/@MazharTechTips
+
+    - name: Email
+      title: My Email Address
+      url: mailto:realmazharhussain@gmail.com
+
+    - name: X
+      title: My X Account
+      url: https://x.com/@MazharHKhan
+
+    - name: Website
+      title: My Personal Website
+      url: https://realmazharhussain.github.io
+
+  editPost:
+    URL: https://github.com/realmazharhussain/mazhartechtips.com/edit/master/content
+    Text: 🖉 Suggest Changes
+    appendFilePath: true
