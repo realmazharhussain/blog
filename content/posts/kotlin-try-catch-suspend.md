@@ -1,7 +1,6 @@
 ---
 title: "Catching Exceptions In Kotlin Coroutines"
-date: 2025-04-20T21:11:00+05:00
-draft: false
+date: 2025-04-15T22:05:00+05:00
 ---
 
 ## Problem
