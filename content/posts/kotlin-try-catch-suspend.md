@@ -1,5 +1,5 @@
 ---
-title: "Properly Catch All Exceptions In Kotlin Coroutines"
+title: "Catching Exceptions In Kotlin Coroutines"
 date: 2025-04-20T21:11:00+05:00
 draft: false
 ---
