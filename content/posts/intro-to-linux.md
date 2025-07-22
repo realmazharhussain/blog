@@ -15,8 +15,8 @@ Unlike Windows or Mac OS, Linux is not owned by one company or person. So, there
 Download links of some distros are given below.
 
 * [Download Ubuntu](https://ubuntu.com/download/desktop)
-* [Download Debian](https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/)
-* [Download Arch](https://mirror.rackspace.com/archlinux/iso/2020.04.01/)
-* [Download Manjaro](https://manjaro.org/get-manjaro/)
+* [Download Debian](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/)
+* [Download Arch](https://mirror.rackspace.com/archlinux/iso/latest/archlinux-x86_64.iso)
+* [Download Manjaro](https://manjaro.org/products/download/x86)
 * [Download Kali](https://www.kali.org/downloads/)
 * [Download Fedora](https://getfedora.org/en/workstation/download/)

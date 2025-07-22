@@ -7,7 +7,7 @@ In this tutorial, You will learn how to install Linux on your system. For an exa
 
 ## Step 1: Download or buy
 
-First you need to download an ISO file of Linux OS. You can download current stable version of Debian Linux from [here](https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/). To users who are coming from Windows, I highly recommend downloading ISO with KDE or Cinnamon desktop environment because their user interface is very similar to that of Windows.
+First you need to download an ISO file of Linux OS. You can download current stable version of Debian Linux from [here](https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/). To users who are coming from Windows, I highly recommend downloading ISO with KDE or Cinnamon desktop environment because their user interface is very similar to that of Windows.
 
 > **Tip**: Given a choice between downloading an installer ISO and live ISO, Choose to download live ISO.
 > *Graphical installers of live ISO are easier to use and you can use your PC while installing the OS, making it easier to find help on the internet if you mess up the installation.*
@@ -16,7 +16,7 @@ You can also buy Linux on DVDs or Flash Drives from stores.
 
 ## Step 2: Make a bootable Flash drive
 
-You can make bootable USB stick using your favourite tool. Rufus and Etcher are two famous tools for this task. If you don’t know how to make a bootable Flash drive, click [here](https://linuxworld45.wordpress.com/2020/05/05/how-to-make-a-bootable-usb-flash-drive/).
+You can make bootable USB stick using your favourite tool. Rufus and Etcher are two famous tools for this task. If you don’t know how to make a bootable Flash drive, click [here](https://blog.mazharhussain.dev/posts/how-to-make-a-bootable-usb-flash-drive/).
 
 ## Step 3: Boot into installer media
 
