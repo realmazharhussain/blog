@@ -1,4 +1,4 @@
-baseURL: https://mazhartechtips.netlify.app
+baseURL: https://blog.mazharhussain.dev
 theme: PaperMod
 title: Mazhar Hussain's Blog
 copyright: © [Mazhar Hussain](https://github.com/realmazharhussain)
@@ -54,6 +54,6 @@ params:
       url: https://realmazharhussain.github.io
 
   editPost:
-    URL: https://github.com/realmazharhussain/mazhartechtips.com/edit/master/content
+    URL: https://github.com/realmazharhussain/blog/edit/master/content
     Text: 🖉 Suggest Changes
     appendFilePath: true
